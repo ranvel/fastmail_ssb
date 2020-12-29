@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Discord SSB
+//  Fastmail SSB
 //
 //  Created by Chris Johnson on 8/20/19.
 //  Copyright © 2019 Yoeyo, Ltd. All rights reserved.
@@ -13,9 +13,9 @@ class ViewController: NSViewController, WKUIDelegate, WKNavigationDelegate {
 
     var webView: WKWebView!
     
-    let webUrl = "https://discordapp.com/channels/@me"
-    let baseDomain = "discordapp.com"
-    let webName = "Discord"
+    let webUrl = "https://www.fastmail.com/mail/"
+    let baseDomain = "fastmail.com"
+    let webName = "Fastmail"
     
     override func loadView() {
         super.loadView()

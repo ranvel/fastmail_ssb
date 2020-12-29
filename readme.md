@@ -1,4 +1,2 @@
-# discord_ssb
-Discord Single Site Browser (Webkit) for the Mac.
-
-
+# fastmail_ssb
+Fastmail Single Site Browser (Webkit)for the Mac. A carbon-copy of the popular [Discord SSB](https://github.com/ChrisLTD/discord_ssb), but with new icon, links, etc...

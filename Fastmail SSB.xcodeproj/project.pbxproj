@@ -14,13 +14,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		494714F3230C2731004E1BA7 /* Discord SSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discord SSB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494714F3230C2731004E1BA7 /* Fastmail SSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fastmail SSB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494714F6230C2731004E1BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494714F8230C2731004E1BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		494714FA230C2734004E1BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494714FD230C2734004E1BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		494714FF230C2734004E1BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49471500230C2734004E1BA7 /* Discord_SSB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Discord_SSB.entitlements; sourceTree = "<group>"; };
+		49471500230C2734004E1BA7 /* Fastmail_SSB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fastmail_SSB.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		494714EA230C2731004E1BA7 = {
 			isa = PBXGroup;
 			children = (
-				494714F5230C2731004E1BA7 /* Discord SSB */,
+				494714F5230C2731004E1BA7 /* Fastmail SSB */,
 				494714F4230C2731004E1BA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +45,12 @@
 		494714F4230C2731004E1BA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				494714F3230C2731004E1BA7 /* Discord SSB.app */,
+				494714F3230C2731004E1BA7 /* Fastmail SSB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		494714F5230C2731004E1BA7 /* Discord SSB */ = {
+		494714F5230C2731004E1BA7 /* Fastmail SSB */ = {
 			isa = PBXGroup;
 			children = (
 				494714F6230C2731004E1BA7 /* AppDelegate.swift */,
@@ -58,17 +58,17 @@
 				494714FA230C2734004E1BA7 /* Assets.xcassets */,
 				494714FC230C2734004E1BA7 /* Main.storyboard */,
 				494714FF230C2734004E1BA7 /* Info.plist */,
-				49471500230C2734004E1BA7 /* Discord_SSB.entitlements */,
+				49471500230C2734004E1BA7 /* Fastmail_SSB.entitlements */,
 			);
-			path = "Discord SSB";
+			path = "Fastmail SSB";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		494714F2230C2731004E1BA7 /* Discord SSB */ = {
+		494714F2230C2731004E1BA7 /* Fastmail SSB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49471503230C2734004E1BA7 /* Build configuration list for PBXNativeTarget "Discord SSB" */;
+			buildConfigurationList = 49471503230C2734004E1BA7 /* Build configuration list for PBXNativeTarget "Fastmail SSB" */;
 			buildPhases = (
 				494714EF230C2731004E1BA7 /* Sources */,
 				494714F0230C2731004E1BA7 /* Frameworks */,
@@ -78,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = "Discord SSB";
-			productName = "Discord SSB";
-			productReference = 494714F3230C2731004E1BA7 /* Discord SSB.app */;
+			name = "Fastmail SSB";
+			productName = "Fastmail SSB";
+			productReference = 494714F3230C2731004E1BA7 /* Fastmail SSB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,14 +91,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "Yoeyo, Ltd.";
+				ORGANIZATIONNAME = "Ranix, Inc.";
 				TargetAttributes = {
 					494714F2230C2731004E1BA7 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 494714EE230C2731004E1BA7 /* Build configuration list for PBXProject "Discord SSB" */;
+			buildConfigurationList = 494714EE230C2731004E1BA7 /* Build configuration list for PBXProject "Fastmail SSB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				494714F2230C2731004E1BA7 /* Discord SSB */,
+				494714F2230C2731004E1BA7 /* Fastmail SSB */,
 			);
 		};
 /* End PBXProject section */
@@ -269,18 +269,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Discord SSB/Discord_SSB.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Fastmail SSB/Fastmail_SSB.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8G5N6F45D6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Discord SSB/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fastmail SSB/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoeyo.Discord-SSB";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -289,18 +291,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Discord SSB/Discord_SSB.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Fastmail SSB/Fastmail_SSB.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8G5N6F45D6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Discord SSB/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fastmail SSB/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yoeyo.Discord-SSB";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -308,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		494714EE230C2731004E1BA7 /* Build configuration list for PBXProject "Discord SSB" */ = {
+		494714EE230C2731004E1BA7 /* Build configuration list for PBXProject "Fastmail SSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49471501230C2734004E1BA7 /* Debug */,
@@ -317,7 +321,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49471503230C2734004E1BA7 /* Build configuration list for PBXNativeTarget "Discord SSB" */ = {
+		49471503230C2734004E1BA7 /* Build configuration list for PBXNativeTarget "Fastmail SSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49471504230C2734004E1BA7 /* Debug */,

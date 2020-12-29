@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Discord SSB
+//  Fastmail SSB
 //
 //  Created by Chris Johnson on 8/20/19.
 //  Copyright © 2019 Yoeyo, Ltd. All rights reserved.
